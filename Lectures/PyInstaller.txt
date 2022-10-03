@@ -1,0 +1,8 @@
+pip install pyinstaller
+
+pyinstaller your_program.py ----  application generation from your_program.py code
+
+--hidden-import MODULENAME ---- manual mode of pyinstaller
+
+--exclude-module EXCLUDES  ----  exclude not nessesory files from package
+

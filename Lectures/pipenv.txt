@@ -1,0 +1,36 @@
+pip install pipenv --user
+
+pipenv --python 3.7       ---- setting up Python version
+
+pipenv --rm    ---- delete invirements
+
+pipenv install Flask ---- install new packeges
+
+pipenv install Flask==0.6.1  ---- install certain packege
+
+pipenv install ipython --dev --- install temp packeges for development
+
+pipenv install ----  install and update package content to venv
+
+pipenv install --dev  ---- update package content + development packages
+
+pipenv sync   ---- install only packages from Pipfile.lock 
+
+pipenv install --deploy  ---- install only packages from Pipfile.lock with Hash check
+
+pipenv install --system ----- install and update package content to system
+
+pipenv uninstall package_name ---- uninstall package
+
+pipenv update ---- update all packages
+
+pipenv graph ---- manage dependances
+
+pipenv clean  ----   clean all beyond of Pipfile.lock
+
+
+
+
+
+
+

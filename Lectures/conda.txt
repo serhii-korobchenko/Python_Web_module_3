@@ -1,0 +1,19 @@
+conda ---- packages manager
+
+pip install conda --user  ---- installation conda
+
+conda create --name snowflakes  ----  create venv with snowflakes name
+
+conda activate snowflakes ---- venv activate
+
+conda info --envs  ---- list of conda venv
+
+conda remove --name snowflakes --all   ---- remove venv with snowflakes name (all included packages)
+
+conda install beautifulsoup4 ---- install beautifulsoup4 package
+
+conda list  ----- list of packages in venv
+
+conda uninstall package_name --name snowflakes  ---- uninstall snowflakes package
+
+conda update --all --name snowflakes  ----- update snowflakes package

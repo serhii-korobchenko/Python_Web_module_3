@@ -1,0 +1,20 @@
+docker version  ---- check docker version
+
+docker pull   ---- docker image download
+
+docker run   ---- lounch docker image like container
+
+docker commit  ---- save container as an image
+
+docker ps  ---- list of existing containers
+
+docker pull image:tag  ----- download image:tag (e.g. MySQL: latest) to local PC 
+
+docker run [options] image: tag [command, args]  ----  run docker image with keys and args
+
+docker ps [options] -----  list all lounched containers  -activate
+
+docker commit [options] container [repository:tag]  ----  create updated docker image
+
+
+
