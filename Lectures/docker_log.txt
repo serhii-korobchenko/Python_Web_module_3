@@ -1,0 +1,11 @@
+docker run serhii_flack_app
+
+docker run -d serhii_flack_app
+
+docker run -d -p 5000:5000 serhii_flack_app
+
+docker build -t serhii_flack_app .
+
+docker run -ti cli_bot
+
+docker login --username=jchild2008 --email=jchild2008@gmail.com
