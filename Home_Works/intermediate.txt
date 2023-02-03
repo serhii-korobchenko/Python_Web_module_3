@@ -1,0 +1,4 @@
+https://stackoverflow.com/questions/57108005/login-to-docker-hub-by-command-line
+
+Error saving credentials: error storing credentials - err: exit status 1, out: `error listing credentials - err: exit status 1, out: `no usernames for https://index.docker.io/v1/``
+
